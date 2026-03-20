@@ -38,7 +38,7 @@ export default function RootLayout({
       <div className="absolute bottom-[20%] left-[55%] w-[14vw] h-[12vw] bg-indigo-200/5 rounded-full blur-[25px]" />
       <div className="absolute bottom-[20%] right-[15%] w-[20vw] h-[11vw] bg-indigo-200/10 rounded-full blur-[15px]" />
       
-      <div className="absolute inset-0 backdrop-blur-2xl pointer-events-none" />
+      <div className="absolute backdrop-blur-2xl pointer-events-none" />
     </div>
     
     <div className="relative z-10 w-full">
