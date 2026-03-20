@@ -7,7 +7,7 @@ export default function Home() {
           <section id="home" className="min-h-screen">
               <div className="flex flex-row items-center justify-center min-h-screen w-full">
                   <div className="flex flex-col justify-center space-x-4">
-                      <h1 className="text-lg text-white px-4 z-">Hello, I'm </h1>
+                      <h1 className="text-lg text-white px-4">Hello, I'm </h1>
                       <p className="text-2xl text-indigo-400 px-4">Malte Pedersen</p>
                   </div>
                   <div className="px-10">
