@@ -17,16 +17,16 @@ export default function Home() {
               </div>
           </section>
 
-          <section id="about" className="min-h-screen" >
-              <p className="text-lg text-white">This is the About page</p>
+          <section id="about" className="flex flex-col items-center min-h-screen w-full">
+              <p className="text-5xl text-white py-25">This is the About page</p>
           </section>
 
-          <section id="projects" className="min-h-screen">
-              <p className="text-lg text-white">This is the projects</p>
+          <section id="projects" className="flex flex-col items-center min-h-screen w-full">
+              <p className="text-5xl text-white py-25">This is the projects</p>
           </section>
 
-          <section id="contact" className="min-h-screen">
-              <p className="text-lg text-white">This is the contact page</p>
+          <section id="contact" className="flex flex-col items-center min-h-screen w-full">
+              <p className="text-5xl text-white py-25">This is the contact page</p>
           </section>
       </div>);
 }
