@@ -6,12 +6,12 @@ export default function Home() {
           
           <section id="home" className="min-h-screen">
               <div className="flex flex-row items-center justify-center min-h-screen w-full">
-                  <div className="flex flex-col justify-center space-x-4">
+                  <div className="space-x-10">
                       <h1 className="text-lg text-white px-4">Hello, I'm </h1>
                       <p className="text-2xl text-indigo-400 px-4">Malte Pedersen</p>
                   </div>
-                  <div className="px-10">
-                      <img src={ img.src } className="w-62 h-85 rounded-b-full"/>
+                  <div>
+                      <img src={ img.src } className="size-7/12 rounded-b-full"/>
                   </div>
                   
               </div>
