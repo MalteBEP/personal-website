@@ -1,4 +1,5 @@
 import img from '../public/img.png'
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,26 +14,27 @@ export default function Home() {
 
                       <h1 className="mt-10 text-xl text-white px-5">Tech Stack </h1>
                       <div className="mt-5">
-                          <a className="bg-[#09090F] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">Next.js</a>
-                          <a className="bg-[#09090F] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">React Native</a>
-                          <a className="bg-[#09090F] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">C#</a>
+                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">Next.js</a>
+                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">React Native</a>
+                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">C#</a>
                       </div>
                       <div className="items-center mt-6">
-                          <a className="bg-[#09090F] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">SQL</a>
-                          <a className="bg-[#09090F] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">Firebase</a>
-                          <a className="bg-[#09090F] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">Tailwind CSS</a>
+                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">SQL</a>
+                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">Firebase</a>
+                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">Tailwind CSS</a>
                       </div>
                       <div className="items-center mt-6">
-                          <a className="bg-[#09090F] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">Avalonia UI</a>
-                          <a className="bg-[#09090F] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">Python</a>
+                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">Avalonia UI</a>
+                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">Python</a>
                       </div>
                       <div className="items-center mt-10 px-3">
-                          <button className="bg-gradient-to-r from-indigo-600 to-indigo-500 text-white px-3 py-3 rounded-md hover:shadow-[0_0_30px_rgba(99,102,241,0.2)] hover:scale-105 transition-all duration-300">
-                              VIEW MY PROJECTS
-                          </button>
-                          <button className="ml-5 px-9 bg-gradient-to-r from-indigo-600 to-indigo-500 text-white px-3 py-3 rounded-md  hover:shadow-[0_0_30px_rgba(99,102,241,0.2)] hover:scale-105 transition-all duration-300">
-                              CONTACT ME
-                          </button>                   
+                          <Link href="#projects" className="text-white underline transition-all duration-300 opacity-90 hover:opacity-70">
+                              View my projects 
+                          </Link>
+                          <a className="text-white transition-all mr-2 ml-2 opacity-90">or</a>
+                          <Link href="#contact" className="text-white underline transition-all duration-300 hover:opacity-70 opacity-90">
+                              contact me
+                          </Link>                   
                       </div>
                       
                   </div>
