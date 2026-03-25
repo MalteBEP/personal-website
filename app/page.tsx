@@ -13,21 +13,21 @@ export default function Home() {
                       <h6 className="text-indigo-100 text-l opacity-60 px-5">Software Technology Student @ SDU</h6>
 
                       <h1 className="mt-10 text-xl text-white px-5">Tech Stack </h1>
-                      <div className="mt-5">
-                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">Next.js</a>
-                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">React Native</a>
-                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">C#</a>
+                      <div className="justify-items-center mt-5 ml-2">
+                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">Next.js</a>
+                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">React Native</a>
+                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">C#</a>
                       </div>
-                      <div className="items-center mt-6">
-                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">SQL</a>
-                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">Firebase</a>
-                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">Tailwind CSS</a>
+                      <div className="justify-items-center mt-6 ml-2">
+                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">SQL</a>
+                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">Firebase</a>
+                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">Tailwind CSS</a>
                       </div>
-                      <div className="items-center mt-6">
-                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">Avalonia UI</a>
-                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-300">Python</a>
+                      <div className="justify-items-center mt-6 ml-2">
+                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">Avalonia UI</a>
+                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">Python</a>
                       </div>
-                      <div className="items-center mt-10 px-3">
+                      <div className="items-center mt-10 ml-5">
                           <Link href="#projects" className="text-white underline transition-all duration-300 opacity-90 hover:opacity-70">
                               View my projects 
                           </Link>
@@ -39,7 +39,7 @@ export default function Home() {
                       
                   </div>
                   <div className="">
-                      <img src={ img.src } className="size-9/12 rounded-b-full"/>
+                      <img src={ img.src } className="size-7/12 rounded-b-full"/>
                       
                   </div>
                   
