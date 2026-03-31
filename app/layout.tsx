@@ -1,16 +1,11 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const jetBrains_Mono = JetBrains_Mono({
+  variable: "--font-jetBrains",
+  subsets: ["latin"]
 });
 
 export const metadata: Metadata = {
@@ -26,26 +21,21 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased scroll-smooth`}>
-    <body className="flex flex-col bg-black text-white">
-    
-    <div className="fixed inset-0 overflow-hidden pointer-events-none -z-10 bg-[#0C0C14]">
-      
-      <div className="absolute top-[8%] left-[10%] w-[20vw] h-[11vw] bg-purple-300/10 rounded-full blur-[22px]" />
-      <div className="absolute top-[14%] left-[18%] w-[14vw] h-[8vw] bg-purple-200/5 rounded-full blur-[16px]" />
-      <div className="absolute top-[6%] left-[28%] w-[18vw] h-[10vw] bg-purple-200/10 rounded-full blur-[24px]" />
-      <div className="absolute bottom-[30%] left-[70%] w-[22vw] h-[12vw] bg-indigo-300/10 rounded-full blur-[25px]" />
-      <div className="absolute bottom-[20%] left-[55%] w-[14vw] h-[12vw] bg-indigo-200/5 rounded-full blur-[25px]" />
-      <div className="absolute bottom-[20%] right-[15%] w-[20vw] h-[11vw] bg-indigo-200/10 rounded-full blur-[15px]" />
-      
-      <div className="absolute backdrop-blur-2xl pointer-events-none" />
-    </div>
-    
-    <div className="relative z-10 w-full">
-      <Header />
-      {children}
-    </div>
-
+      className={`${jetBrains_Mono.variable} h-full antialiased scroll-smooth`}>
+    <body>
+      <div className="fixed inset-0 bg-[#0C0C14]">
+        <div className="absolute top-[8%] left-[10%] w-[20vw] h-[11vw] bg-purple-300/10 rounded-full blur-[22px]" />
+        <div className="absolute top-[14%] left-[18%] w-[14vw] h-[8vw] bg-purple-200/5 rounded-full blur-[16px]" />
+        <div className="absolute top-[6%] left-[28%] w-[18vw] h-[10vw] bg-purple-200/10 rounded-full blur-[24px]" />
+        <div className="absolute bottom-[30%] left-[70%] w-[22vw] h-[12vw] bg-indigo-300/10 rounded-full blur-[25px]" />
+        <div className="absolute bottom-[20%] left-[55%] w-[14vw] h-[12vw] bg-indigo-200/5 rounded-full blur-[25px]" />
+        <div className="absolute bottom-[20%] right-[15%] w-[20vw] h-[11vw] bg-indigo-200/10 rounded-full blur-[15px]" />
+        <div className="absolute backdrop-blur-2xl" />
+      </div>
+      <div className="relative w-full">
+        <Header />
+        {children}
+      </div>
     </body>
     </html>
   );
