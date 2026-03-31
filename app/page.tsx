@@ -5,13 +5,14 @@ import { FaGithub, FaLinkedin, } from 'react-icons/fa';
 import { IoIosMail } from "react-icons/io";
 import { showToast } from "nextjs-toast-notify";
 
+
 export default function Home() {
     
     const CopyToClipboard = async () => {
         
         try 
         {
-            await navigator.clipboard.writeText("Malpe24@student.sdu.dk").then(() => {
+            await navigator.clipboard.writeText("Maltepedersen03@gmail.com").then(() => {
                 showToast.success("Copied to clipboard", {
                     duration: 3000,
                     progress: true,
@@ -29,6 +30,7 @@ export default function Home() {
         }
         
     }
+    
   return (
       <div>
           
@@ -40,21 +42,21 @@ export default function Home() {
                       <h6 className="text-indigo-100 text-l opacity-60 px-5">Software Technology Student @ SDU</h6>
 
                       <h1 className="mt-10 text-xl text-white px-5">Tech Stack </h1>
-                      <div className="justify-items-center mt-5 ml-2">
-                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">Next.js</a>
-                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">React Native</a>
-                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">C#</a>
+                      <div className="flex flex-row">
+                          <p className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">Next.js</p>
+                          <p className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">React Native</p>
+                          <p className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">C#</p>
                       </div>
-                      <div className="justify-items-center mt-6 ml-2">
-                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">SQL</a>
-                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">Firebase</a>
-                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">Tailwind CSS</a>
+                      <div className="flex flex-row">
+                          <p className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">SQL</p>
+                          <p className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">Firebase</p>
+                          <p className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">Tailwind CSS</p>
                       </div>
-                      <div className="justify-items-center mt-6 ml-2">
-                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">Avalonia UI</a>
-                          <a className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">Python</a>
+                      <div className="flex flex-row">
+                          <p className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">Avalonia UI</p>
+                          <p className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">Python</p>
                       </div>
-                      <div className="items-center mt-10 ml-5">
+                      <div className="items-center mt-5 ml-5">
                           <Link href="#projects" className="text-white underline transition-all duration-300 opacity-90 hover:opacity-70">
                               View my projects 
                           </Link>
@@ -89,48 +91,47 @@ export default function Home() {
                       <p className="text-white text-5xl pr-60">Let's Connect</p>
                       <p className="text-white text-lg pl-1.5">Feel free to reach out! I'm always open to discussing new projects, creative ideas, or opportunities.</p>
                       <div className="items-center w-full bg-white/5 rounded-xl p-5 border-x-1 border-y-1 border-white/15 shadow-lg mt-5">
-                          <p className="text-green-400 mb-0.5">// Personal Profile</p>
-                          <div className="flex flex-row">
-                              <p className="text-blue-400 mb-0.5 mr-1">var</p>
-                              <p className="text-neutral-500 mb-0.5 mr-1">developer</p>
-                              <p className="text-white/90 mb-0.5 mr-1"> = </p>
-                              <p className="text-blue-400 mb-0.5 mr-1">new</p>
-                              <p className="text-purple-400 mb-0.5 mr-1"> Developer</p>
+                          <p className="text-green-400 font-mono mb-0.5 ">// Personal Profile</p>
+                          <div className="flex flex-row ">
+                              <p className="text-blue-400 font-mono mb-0.5 mr-1">var</p>
+                              <p className="text-neutral-500 font-mono mb-0.5 mr-1">developer</p>
+                              <p className="text-white/90 font-mono mb-0.5 mr-1"> = </p>
+                              <p className="text-blue-400 font-mono mb-0.5 mr-1">new</p>
+                              <p className="text-purple-400 font-mono mb-0.5 mr-1"> Developer</p>
                           </div>
-                          <p className="text-white/90 mb-0.5">{'{'}</p>
+                          <p className="text-white/90 font-mono mb-0.5">{'{'}</p>
                           <div className="flex flex-row">
-                              <p className="text-cyan-400 mb-0.5 mr-1">Name</p>
-                              <p className="text-white/90 mb-0.5 mr-1">=</p>
-                              <p className="text-orange-300 mb-0.5 mr-1">"Malte Pedersen"</p>
-                              <p className="text-white/90 mb-0.5">,</p>
-                          </div>
-                          <div className="flex flex-row">
-                              <p className="text-cyan-400 mb-0.5 mr-1">Location</p>
-                              <p className="text-white/90 mb-0.5 mr-1">=</p>
-                              <p className="text-orange-300 mb-0.5 mr-1">"Odense, Denmark"</p>
-                              <p className="text-white/90 mb-0.5">,</p>
+                              <p className="text-cyan-400 font-mono mb-0.5 mr-1">Name</p>
+                              <p className="text-white/90 font-mono mb-0.5 mr-1">=</p>
+                              <p className="text-orange-300 font-mono mb-0.5 mr-1">"Malte Pedersen"</p>
+                              <p className="text-white/90 font-mono mb-0.5">,</p>
                           </div>
                           <div className="flex flex-row">
-                              <p className="text-cyan-400 mb-0.5 mr-1">Status</p>
-                              <p className="text-white/90 mb-0.5 mr-1">=</p>
-                              <p className="text-orange-300 mb-0.5 mr-1">"Student @ SDU"</p>
-                              <p className="text-white/90 mb-0.5">,</p>
+                              <p className="text-cyan-400 font-mono mb-0.5 mr-1">Location</p>
+                              <p className="text-white/90 font-mono mb-0.5 mr-1">=</p>
+                              <p className="text-orange-300 font-mono mb-0.5 mr-1">"Odense, Denmark"</p>
+                              <p className="text-white/90 font-mono mb-0.5">,</p>
                           </div>
                           <div className="flex flex-row">
-                              <p className="text-cyan-400 mb-0.5 mr-1">Focus</p>
-                              <p className="text-white/90 mb-0.5 mr-1">=</p>
-                              <p className="text-orange-300 mb-0.5 mr-1">"Learning and improving"</p>
-                              <p className="text-white/90 mb-0.5">,</p>
+                              <p className="text-cyan-400 font-mono mb-0.5 mr-1">Status</p>
+                              <p className="text-white/90 font-mono mb-0.5 mr-1">=</p>
+                              <p className="text-orange-300 font-mono mb-0.5 mr-1">"Student @ SDU"</p>
+                              <p className="text-white/90 font-mono mb-0.5">,</p>
                           </div>
-                          <p className="text-white/90 mb-0.5">{'};'}</p>
-                          <p className="text-green-400 mt-4 mb-0.5">// Final Thought</p>
                           <div className="flex flex-row">
-                              <p className="text-purple-400 mb-0.5">Console</p>
-                              <p className="text-white/90 mb-0.5">.</p>
-                              <p className="text-emerald-400 mb-0.5">WriteLine</p>
-                              <p className="text-white/90 mb-0.5">(</p>
-                              <p className="text-orange-300 mb-0.5">"Ready to connect. Details on the right -{'>'}"</p>
-                              <p className="text-white/90 mb-0.5">);</p>
+                              <p className="text-cyan-400 font-mono mb-0.5 mr-1">Focus</p>
+                              <p className="text-white/90 font-mono mb-0.5 mr-1">=</p>
+                              <p className="text-orange-300 font-mono mb-0.5 mr-1">"Learning and improving"</p>
+                          </div>
+                          <p className="text-white/90 font-mono mb-0.5">{'};'}</p>
+                          <p className="text-green-400 font-mono mt-4 mb-0.5">// Final Thought</p>
+                          <div className="flex flex-row">
+                              <p className="text-purple-400 font-mono mb-0.5">Console</p>
+                              <p className="text-white/90 font-mono mb-0.5">.</p>
+                              <p className="text-emerald-400 font-mono mb-0.5">WriteLine</p>
+                              <p className="text-white/90 font-mono mb-0.5">(</p>
+                              <p className="text-orange-300 font-mono mb-0.5">"Ready to connect! -{'>'}"</p>
+                              <p className="text-white/90 font-mono mb-0.5">);</p>
                           </div>
                           
                       </div>
