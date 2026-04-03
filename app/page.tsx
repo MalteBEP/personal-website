@@ -1,5 +1,6 @@
 'use client';
 import img from '../public/img.png'
+import line from '..public/line.svg'
 import Link from "next/link";
 import { FaGithub, FaLinkedin, } from 'react-icons/fa';
 import { IoIosMail } from "react-icons/io";
@@ -65,29 +66,83 @@ export default function Home() {
                               contact me
                           </Link>                   
                       </div>
-                      
                   </div>
                   <div className="">
                       <img src={ img.src } className="size-7/12 rounded-b-full"/>
-                      
                   </div>
-                  
-                  
               </div>
-              
           </section>
 
-          <section id="about" className="flex flex-col items-center min-h-screen w-full">
-              <p className="text-5xl text-white py-25">This is the About page</p>
+
+
+
+          <section id="about" className="flex flex-col items-center min-h-screen w-full pt-24">
+              <p className="text-5xl text-white mb-32">This is the About page</p>
+              <div className="relative w-full max-w-6xl px-6">
+                  <svg
+                      viewBox="0 0 837 661"
+                      className="w-full h-auto drop-shadow-[0_0_8px_rgba(168,85,247,0.9)] opacity-90"
+                      preserveAspectRatio="xMidYMid meet"
+                  >
+                      <path
+                          d="M2.7739 171.641C60.4406 311.641 227.774 507.641 435.774 171.641C643.774 -164.359 765.774 78.308 800.774 241.641C839.774 395.975 875.774 694.441 707.774 653.641"
+                          stroke="#5C6BC0"
+                          strokeWidth="6" 
+                          fill="transparent"
+                      />
+                  </svg>
+
+                  <div className="absolute top-[18%] left-[0%] bg-[#0C0C14]/80 backdrop-blur-sm border border-indigo-400/30 p-4 rounded-xl w-48 shadow-xl">
+                      <div className="flex items-center gap-2 mb-1">
+                          {/* Glowing Dot */}
+                          <div className="w-2.5 h-2.5 rounded-full bg-indigo-400 shadow-[0_0_8px_rgba(129,140,248,0.8)]"></div>
+                          <h3 className="font-bold text-white text-sm">Foundations</h3>
+                      </div>
+                      <p className="text-xs text-indigo-100/60">OJ Autolak 2020-2025</p>
+                  </div>
+                  
+                  <div className="absolute top-[60%] left-[22%] bg-[#0C0C14]/80 backdrop-blur-sm border border-indigo-400/30 p-4 rounded-xl w-48 shadow-xl">
+                      <div className="flex items-center gap-2 mb-1">
+                          <div className="w-2.5 h-2.5 rounded-full bg-purple-400 shadow-[0_0_8px_rgba(192,132,252,0.8)]"></div>
+                          <h3 className="font-bold text-white text-sm">Skill Building</h3>
+                      </div>
+                      <p className="text-xs text-indigo-100/60">AK 2024-2025</p>
+                  </div>
+                  
+                  <div className="absolute top-[20%] left-[55%] bg-[#0C0C14]/80 backdrop-blur-sm border border-indigo-400/30 p-4 rounded-xl w-56 shadow-xl z-10">
+                      <div className="flex items-center gap-2 mb-1">
+                          <div className="w-2.5 h-2.5 rounded-full bg-blue-400 shadow-[0_0_8px_rgba(96,165,250,0.8)]"></div>
+                          <h3 className="font-bold text-white text-sm">Software Tech @ SDU</h3>
+                      </div>
+                      <p className="text-xs text-indigo-100/60">2025 - Present</p>
+                  </div>
+                  
+                  <div className="absolute top-[85%] left-[75%] bg-[#0C0C14]/80 backdrop-blur-sm border border-indigo-400/30 p-4 rounded-xl w-48 shadow-xl">
+                      <div className="flex items-center gap-2 mb-1">
+                          <div className="w-2.5 h-2.5 rounded-full bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.8)]"></div>
+                          <h3 className="font-bold text-white text-sm">Future</h3>
+                      </div>
+                      <p className="text-xs text-indigo-100/60">Optimistic</p>
+                  </div>
+                  
+              </div>
           </section>
+          
+          
+          
 
           <section id="projects" className="flex flex-col items-center min-h-screen w-full">
               <p className="text-5xl text-white py-25">This is the projects</p>
           </section>
 
+          
+          
+          
+          
+          
           <section id="contact" className="flex flex-col items-center min-h-screen w-full">
               <div className="flex flex-row items-center min-h-screen w-full">
-                  <div className="flex flex-col items-center min-h-screen w-full py-30 ml-56">
+                  <div className="flex flex-col items-center justify-center min-h-screen w-full py-30 ml-56">
                       <p className="text-white text-5xl pr-60">Let's Connect</p>
                       <p className="text-white text-lg pl-1.5">Feel free to reach out! I'm always open to discussing new projects, creative ideas, or opportunities.</p>
                       <div className="items-center w-full bg-white/5 rounded-xl p-5 border-x-1 border-y-1 border-white/15 shadow-lg mt-5">
