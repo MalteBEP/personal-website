@@ -19,7 +19,6 @@ export default function Home() {
                     progress: true,
                     position: "bottom-center",
                     transition: "slideInUp",
-                    icon: '',
                     sound: false,
                     
                 })
@@ -77,7 +76,7 @@ export default function Home() {
 
 
           <section id="about" className="flex flex-col items-center min-h-screen w-full pt-24">
-              <p className="text-5xl text-white mb-32">This is the About page</p>
+              <h1 className="text-4xl text-indigo-400 px-5 mt-10">My Journey</h1>
               <div className="relative w-full max-w-6xl px-6">
                   <svg
                       viewBox="0 0 837 661"
@@ -96,33 +95,33 @@ export default function Home() {
                       <div className="flex items-center gap-2 mb-1">
                           {/* Glowing Dot */}
                           <div className="w-2.5 h-2.5 rounded-full bg-indigo-400 shadow-[0_0_8px_rgba(129,140,248,0.8)]"></div>
-                          <h3 className="font-bold text-white text-sm">Foundations</h3>
+                          <h3 className="font-bold text-white text-sm">OJ Autolak 2020-2024</h3>
                       </div>
-                      <p className="text-xs text-indigo-100/60">OJ Autolak 2020-2025</p>
+                      <p className="text-xs text-indigo-100/60">Developed a sharp eye for detail, strict quality control, and practical problem-solving in a fast-paced environment.</p>
                   </div>
                   
-                  <div className="absolute top-[60%] left-[22%] bg-[#0C0C14]/80 backdrop-blur-sm border border-indigo-400/30 p-4 rounded-xl w-48 shadow-xl">
+                  <div className="absolute top-[30%] left-[45%] bg-[#0C0C14]/80 backdrop-blur-sm border border-indigo-400/30 p-4 rounded-xl w-48 shadow-xl">
                       <div className="flex items-center gap-2 mb-1">
                           <div className="w-2.5 h-2.5 rounded-full bg-purple-400 shadow-[0_0_8px_rgba(192,132,252,0.8)]"></div>
-                          <h3 className="font-bold text-white text-sm">Skill Building</h3>
+                          <h3 className="font-bold text-white text-sm">Engineering Foundation Course</h3>
                       </div>
-                      <p className="text-xs text-indigo-100/60">AK 2024-2025</p>
+                      <p className="text-xs text-indigo-100/60">Intensive academic upgrade. Bridged the gap between practical trade skills and theoretical engineering.</p>
                   </div>
                   
-                  <div className="absolute top-[20%] left-[55%] bg-[#0C0C14]/80 backdrop-blur-sm border border-indigo-400/30 p-4 rounded-xl w-56 shadow-xl z-10">
+                  <div className="absolute top-[20%] left-[85%] bg-[#0C0C14]/80 backdrop-blur-sm border border-indigo-400/30 p-4 rounded-xl w-56 shadow-xl z-10">
                       <div className="flex items-center gap-2 mb-1">
                           <div className="w-2.5 h-2.5 rounded-full bg-blue-400 shadow-[0_0_8px_rgba(96,165,250,0.8)]"></div>
                           <h3 className="font-bold text-white text-sm">Software Tech @ SDU</h3>
                       </div>
-                      <p className="text-xs text-indigo-100/60">2025 - Present</p>
+                      <p className="text-xs text-indigo-100/60">Currently building a foundation in software architecture, coding, and agile development methodologies.</p>
                   </div>
                   
-                  <div className="absolute top-[85%] left-[75%] bg-[#0C0C14]/80 backdrop-blur-sm border border-indigo-400/30 p-4 rounded-xl w-48 shadow-xl">
+                  <div className="absolute top-[87%] left-[70%] bg-[#0C0C14]/80 backdrop-blur-sm border border-indigo-400/30 p-4 rounded-xl w-48 shadow-xl">
                       <div className="flex items-center gap-2 mb-1">
                           <div className="w-2.5 h-2.5 rounded-full bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.8)]"></div>
                           <h3 className="font-bold text-white text-sm">Future</h3>
                       </div>
-                      <p className="text-xs text-indigo-100/60">Optimistic</p>
+                      <p className="text-xs text-indigo-100/60">Eager to combine practical problem-solving with software engineering. Looking for student worker opportunities or internships.</p>
                   </div>
                   
               </div>
