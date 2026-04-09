@@ -41,11 +41,32 @@ export default function Home() {
                       <h1 className="text-4xl text-indigo-400 px-5">Malte Pedersen</h1>
                       <h6 className="text-indigo-100 text-l opacity-60 px-5">Software Technology Student @ SDU</h6>
 
-                      <h1 className="mt-10 text-xl text-white px-5">Tech Stack </h1>
+                      <h1 className="mt-10 text-xl text-white px-5">Technologies & skillset</h1>
                       <div className="flex flex-row">
-                          <p className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">Next.js</p>
-                          <p className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">React Native</p>
-                          <p className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">C#</p>
+
+                          {/* Next.js ///////////////////////////////////////////////> */}
+                          <div className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 duration-200 group relative z-0">
+                              <p>Next.js</p>
+                              <div className="left-[-60%] mt-1  hidden group-hover:block bg-[#0C0C14]/80 backdrop-blur-xs border border-indigo-400 p-4 rounded-xl w-48 shadow-x4 absolute z-1 top-full">
+                                  Here I'm going to write about my experience with Next.js
+                              </div>
+                          </div>
+
+                          {/* React Native ///////////////////////////////////////////////> */}
+                          <div className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 duration-200 group relative z-0">
+                              <p>React Native</p>
+                              <div className="left-[-23%] mt-1 hidden group-hover:block bg-[#0C0C14]/80 backdrop-blur-xs border border-indigo-400 p-4 rounded-xl w-48 shadow-x4 absolute z-1 top-full">
+                                  Here I'm going to write about my experience with React Native
+                              </div>
+                          </div>
+
+                          {/* C# ///////////////////////////////////////////////> */}
+                          <div className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 duration-200 group relative z-0">
+                              <p>C#</p>
+                              <div className="left-[-100%] mt-1 hidden group-hover:block bg-[#0C0C14]/80 backdrop-blur-xs border border-indigo-400 p-4 rounded-xl w-48 shadow-x4 absolute z-1 top-full">
+                                  Here I'm going to write about my experience with C#
+                              </div>
+                          </div>
                       </div>
                       <div className="flex flex-row">
                           <p className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">SQL</p>
@@ -80,21 +101,18 @@ export default function Home() {
               <div className="relative w-full max-w-6xl px-6">
                   <svg
                       viewBox="0 0 837 661"
-                      className="w-full h-auto drop-shadow-[0_0_8px_rgba(168,85,247,0.9)] opacity-90"
-                      preserveAspectRatio="xMidYMid meet"
-                  >
+                      className="w-full h-auto drop-shadow-indigo-400 drop-shadow-lg drop-shadow opacity-90"
+                      preserveAspectRatio="xMidYMid meet">
                       <path
                           d="M2.7739 171.641C60.4406 311.641 227.774 507.641 435.774 171.641C643.774 -164.359 765.774 78.308 800.774 241.641C839.774 395.975 875.774 694.441 707.774 653.641"
                           stroke="#5C6BC0"
                           strokeWidth="6" 
-                          fill="transparent"
-                      />
+                          fill="transparent"/>
                   </svg>
 
                   <div className="absolute top-[18%] left-[0%] bg-[#0C0C14]/80 backdrop-blur-sm border border-indigo-400/30 p-4 rounded-xl w-48 shadow-xl">
                       <div className="flex items-center gap-2 mb-1">
-                          {/* Glowing Dot */}
-                          <div className="w-2.5 h-2.5 rounded-full bg-indigo-400 shadow-[0_0_8px_rgba(129,140,248,0.8)]"></div>
+                          <div className="w-2.5 h-2.5 rounded-full bg-indigo-400 shadow-black"></div>
                           <h3 className="font-bold text-white text-sm">OJ Autolak 2020-2024</h3>
                       </div>
                       <p className="text-xs text-indigo-100/60">Developed a sharp eye for detail, strict quality control, and practical problem-solving in a fast-paced environment.</p>
@@ -102,7 +120,7 @@ export default function Home() {
                   
                   <div className="absolute top-[30%] left-[45%] bg-[#0C0C14]/80 backdrop-blur-sm border border-indigo-400/30 p-4 rounded-xl w-48 shadow-xl">
                       <div className="flex items-center gap-2 mb-1">
-                          <div className="w-2.5 h-2.5 rounded-full bg-purple-400 shadow-[0_0_8px_rgba(192,132,252,0.8)]"></div>
+                          <div className="w-2.5 h-2.5 rounded-full bg-purple-400 shadow-black"></div>
                           <h3 className="font-bold text-white text-sm">Engineering Foundation Course</h3>
                       </div>
                       <p className="text-xs text-indigo-100/60">Intensive academic upgrade. Bridged the gap between practical trade skills and theoretical engineering.</p>
@@ -110,7 +128,7 @@ export default function Home() {
                   
                   <div className="absolute top-[20%] left-[85%] bg-[#0C0C14]/80 backdrop-blur-sm border border-indigo-400/30 p-4 rounded-xl w-56 shadow-xl z-10">
                       <div className="flex items-center gap-2 mb-1">
-                          <div className="w-2.5 h-2.5 rounded-full bg-blue-400 shadow-[0_0_8px_rgba(96,165,250,0.8)]"></div>
+                          <div className="w-2.5 h-2.5 rounded-full bg-blue-400 shadow-black"></div>
                           <h3 className="font-bold text-white text-sm">Software Tech @ SDU</h3>
                       </div>
                       <p className="text-xs text-indigo-100/60">Currently building a foundation in software architecture, coding, and agile development methodologies.</p>
@@ -118,7 +136,7 @@ export default function Home() {
                   
                   <div className="absolute top-[87%] left-[70%] bg-[#0C0C14]/80 backdrop-blur-sm border border-indigo-400/30 p-4 rounded-xl w-48 shadow-xl">
                       <div className="flex items-center gap-2 mb-1">
-                          <div className="w-2.5 h-2.5 rounded-full bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.8)]"></div>
+                          <div className="w-2.5 h-2.5 rounded-full bg-emerald-400 shadow-black"></div>
                           <h3 className="font-bold text-white text-sm">Future</h3>
                       </div>
                       <p className="text-xs text-indigo-100/60">Eager to combine practical problem-solving with software engineering. Looking for student worker opportunities or internships.</p>
