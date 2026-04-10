@@ -1,10 +1,12 @@
 'use client';
 import img from '../public/img.png'
+import phone1 from '../public/phone_iphone-17-pro.png'
 import line from '..public/line.svg'
 import Link from "next/link";
 import { FaGithub, FaLinkedin, } from 'react-icons/fa';
 import { IoIosMail } from "react-icons/io";
 import { showToast } from "nextjs-toast-notify";
+
 
 
 export default function Home() {
@@ -28,7 +30,6 @@ export default function Home() {
         {
             console.log(error);
         }
-        
     }
     
   return (
@@ -194,6 +195,7 @@ export default function Home() {
 
           <section id="projects" className="flex flex-col items-center min-h-screen w-full">
               <p className="text-5xl text-white py-25">This is the projects</p>
+              <img src={phone1.src} className="w-1/5"/>
           </section>
 
           
