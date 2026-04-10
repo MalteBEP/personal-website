@@ -40,42 +40,86 @@ export default function Home() {
                       <h1 className="text-4xl text-white px-5">Hello, I'm </h1>
                       <h1 className="text-4xl text-indigo-400 px-5">Malte Pedersen</h1>
                       <h6 className="text-indigo-100 text-l opacity-60 px-5">Software Technology Student @ SDU</h6>
-
                       <h1 className="mt-10 text-xl text-white px-5">Technologies & skillset</h1>
                       <div className="flex flex-row">
+                          
 
                           {/* Next.js ///////////////////////////////////////////////> */}
-                          <div className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 duration-200 group relative z-0">
+                          <div className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 duration-200 group relative hover:z-50">
                               <p>Next.js</p>
-                              <div className="left-[-60%] mt-1  hidden group-hover:block bg-[#0C0C14]/80 backdrop-blur-xs border border-indigo-400 p-4 rounded-xl w-48 shadow-x4 absolute z-1 top-full">
-                                  Here I'm going to write about my experience with Next.js
+                              <div className="left-1/2 transform -translate-x-1/2 mt-1  hidden group-hover:block bg-[#0C0C14]/80 backdrop-blur-xs border border-indigo-400 p-4 rounded-xl w-96 shadow-x4 absolute top-full">
+                                  <p>Built a portfolio website to showcase my projects, skills, and professional background. Developed the site from scratch and deployed it via GitHub Pages to create a fast, accessible personal brand home.</p>
                               </div>
                           </div>
+                          
 
                           {/* React Native ///////////////////////////////////////////////> */}
-                          <div className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 duration-200 group relative z-0">
+                          <div className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 duration-200 group relative hover:z-50">
                               <p>React Native</p>
-                              <div className="left-[-23%] mt-1 hidden group-hover:block bg-[#0C0C14]/80 backdrop-blur-xs border border-indigo-400 p-4 rounded-xl w-48 shadow-x4 absolute z-1 top-full">
-                                  Here I'm going to write about my experience with React Native
+                              <div className="left-1/2 transform -translate-x-1/2 mt-1 hidden group-hover:block bg-[#0C0C14]/80 backdrop-blur-xs border border-indigo-400 p-4 rounded-xl w-96 shadow-x4 absolute top-full">
+                                  Used the Expo framework to build a mobile Pokémon card collection tracker. Focused on mobile UI design and integrating the C# backend.
+                              </div>
+                          </div>
+                          
+
+                          {/* C# ///////////////////////////////////////////////> */}
+                          <div className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 duration-200 group relative hover:z-50">
+                              <p>C#</p>
+                              <div className="left-1/2 transform -translate-x-1/2 mt-1 hidden group-hover:block bg-[#0C0C14]/80 backdrop-blur-xs border border-indigo-400 p-4 rounded-xl w-99 shadow-x4 absolute top-full">
+                                  Primary programming language used for university coursework and personal projects.
+                              </div>
+                          </div>
+                          
+                      </div>
+                      
+                      <div className="flex flex-row">
+
+                          
+                          {/* SQL ///////////////////////////////////////////////> */}
+                          <div className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 duration-200 group relative hover:z-50">
+                              <p>PostgreSQL</p>
+                              <div className="left-1/2 -translate-x-1/2 mt-1 hidden group-hover:block bg-[#0C0C14]/80 backdrop-blur-xs border border-indigo-400 p-4 rounded-xl w-96 shadow-x4 absolute z-1 top-full">
+                                  Main database language used for university projects. Learned how to design databases, set up tables, and write queries to retrieve data for applications.
                               </div>
                           </div>
 
-                          {/* C# ///////////////////////////////////////////////> */}
-                          <div className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 duration-200 group relative z-0">
-                              <p>C#</p>
-                              <div className="left-[-100%] mt-1 hidden group-hover:block bg-[#0C0C14]/80 backdrop-blur-xs border border-indigo-400 p-4 rounded-xl w-48 shadow-x4 absolute z-1 top-full">
-                                  Here I'm going to write about my experience with C#
+
+                          {/* Firebase ///////////////////////////////////////////////> */}
+                          <div className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 duration-200 group relative hover:z-50">
+                              <p>Firebase</p>
+                              <div className="left-1/2 -translate-x-1/2 mt-1 hidden group-hover:block bg-[#0C0C14]/80 backdrop-blur-xs border border-indigo-400 p-4 rounded-xl w-96 shadow-x4 absolute z-1 top-full">
+                                  Used to handle user authentication for my Pokémon card collection app. Implemented to ensure a smooth login experience.
                               </div>
                           </div>
+
+
+                          {/* Tailwind CSS ///////////////////////////////////////////////> */}
+                          <div className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 duration-200 group relative hover:z-50">
+                              <p>Tailwind CSS</p>
+                              <div className="left-1/2 -translate-x-1/2 mt-1 hidden group-hover:block bg-[#0C0C14]/80 backdrop-blur-xs border border-indigo-400 p-4 rounded-xl w-99 shadow-x4 absolute z-1 top-full">
+                                  Styled my portfolio site with Tailwind CSS to create a clean and organized layout that showcases my website effectively.
+                              </div>
+                          </div>
+                          
+                          
                       </div>
                       <div className="flex flex-row">
-                          <p className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">SQL</p>
-                          <p className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">Firebase</p>
-                          <p className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">Tailwind CSS</p>
-                      </div>
-                      <div className="flex flex-row">
-                          <p className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">Avalonia UI</p>
-                          <p className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 hover:text-black duration-200">Python</p>
+                          {/* Avalonia UI ///////////////////////////////////////////////> */}
+                          <div className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 duration-200 group relative hover:z-50">
+                              <p>Avalonia UI</p>
+                              <div className="left-1/2 -translate-x-1/2 mt-1 hidden group-hover:block bg-[#0C0C14]/80 backdrop-blur-xs border border-indigo-400 p-4 rounded-xl w-96 shadow-x4 absolute z-1 top-full">
+                                  Developed the graphical interface for two university projects using Avalonia UI. This involved collaborating with a team to build software that runs across different platforms.
+                              </div>
+                          </div>
+
+
+                          {/* Python ///////////////////////////////////////////////> */}
+                          <div className="bg-[#0C0C14] text-white rounded-full border-indigo-400 border m-3 px-5 py-2 hover:bg-indigo-400 duration-200 group relative hover:z-50">
+                              <p>Python</p>
+                              <div className="left-1/2 -translate-x-1/2 mt-1 hidden group-hover:block bg-[#0C0C14]/80 backdrop-blur-xs border border-indigo-400 p-4 rounded-xl w-96 shadow-x4 absolute z-1 top-full">
+                                  Used Python to complete an algorithm project focused on performance and time complexity. This was part of a Computer Systems course where I learned to analyze how different algorithms impact speed.
+                              </div>
+                          </div>
                       </div>
                       <div className="items-center mt-5 ml-5">
                           <Link href="#projects" className="text-white underline transition-all duration-300 opacity-90 hover:opacity-70">
@@ -152,9 +196,6 @@ export default function Home() {
               <p className="text-5xl text-white py-25">This is the projects</p>
           </section>
 
-          
-          
-          
           
           
           <section id="contact" className="flex flex-col items-center min-h-screen w-full">
