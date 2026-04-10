@@ -77,23 +77,20 @@ export default function Home() {
 
           <section id="about" className="flex flex-col items-center min-h-screen w-full pt-24">
               <h1 className="text-4xl text-indigo-400 px-5 mt-10">My Journey</h1>
-              <div className="relative w-full max-w-6xl px-6">
+              <div className="relative w-full max-w-2xl px-6">
                   <svg
                       viewBox="0 0 837 661"
                       className="w-full h-auto drop-shadow-[0_0_8px_rgba(168,85,247,0.9)] opacity-90"
-                      preserveAspectRatio="xMidYMid meet"
-                  >
+                      preserveAspectRatio="xMidYMid meet">
                       <path
                           d="M2.7739 171.641C60.4406 311.641 227.774 507.641 435.774 171.641C643.774 -164.359 765.774 78.308 800.774 241.641C839.774 395.975 875.774 694.441 707.774 653.641"
                           stroke="#5C6BC0"
                           strokeWidth="6" 
-                          fill="transparent"
-                      />
+                          fill="transparent"/>
                   </svg>
 
                   <div className="absolute top-[18%] left-[0%] bg-[#0C0C14]/80 backdrop-blur-sm border border-indigo-400/30 p-4 rounded-xl w-48 shadow-xl">
                       <div className="flex items-center gap-2 mb-1">
-                          {/* Glowing Dot */}
                           <div className="w-2.5 h-2.5 rounded-full bg-indigo-400 shadow-[0_0_8px_rgba(129,140,248,0.8)]"></div>
                           <h3 className="font-bold text-white text-sm">OJ Autolak 2020-2024</h3>
                       </div>
