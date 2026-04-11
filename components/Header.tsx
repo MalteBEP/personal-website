@@ -2,7 +2,13 @@
 export default function Header() {
     
     const handleScroll = (id:string)=> {
-        window.location.href = id;
+        if (id == "#home"){
+            window.location.href = id;
+            window.scrollTo(0,0);
+        }
+        else{
+            window.location.href = id;
+        }
     }
     
     return (
