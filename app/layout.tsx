@@ -23,13 +23,7 @@ export default function RootLayout({
       lang="en"
       className={`${jetBrains_Mono.variable} h-full antialiased scroll-smooth`}>
     <body>
-      <div className="fixed inset-0 bg-[#0C0C14]">
-        <div className="absolute top-[8%] left-[10%] w-[20vw] h-[11vw] bg-purple-300/10 rounded-full blur-[22px]" />
-        <div className="absolute top-[14%] left-[18%] w-[14vw] h-[8vw] bg-purple-200/5 rounded-full blur-[16px]" />
-        <div className="absolute top-[6%] left-[28%] w-[18vw] h-[10vw] bg-purple-200/10 rounded-full blur-[24px]" />
-        <div className="absolute bottom-[30%] left-[70%] w-[22vw] h-[12vw] bg-indigo-300/10 rounded-full blur-[25px]" />
-        <div className="absolute bottom-[20%] left-[55%] w-[14vw] h-[12vw] bg-indigo-200/5 rounded-full blur-[25px]" />
-        <div className="absolute bottom-[20%] right-[15%] w-[20vw] h-[11vw] bg-indigo-200/10 rounded-full blur-[15px]" />
+      <div className="fixed inset-0 bg-white">
         <div className="absolute backdrop-blur-2xl" />
       </div>
       <div className="relative w-full">
