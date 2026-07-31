@@ -47,7 +47,7 @@ export default function Home() {
                           {/* Next.js ///////////////////////////////////////////////> */}
                           <div className="bg-white text-black rounded-md border-mauve-600 border-2 border m-1 ml-4 px-5 py-2 hover:bg-mauve-600 hover:text-white duration-200 group relative hover:z-50">
                               <p>Next.js</p>
-                              <div className="left-1/2 transform -translate-x-1/2 mt-1  hidden group-hover:block bg-neutral-700/80 backdrop-blur-xs border border-mauve-600 p-4 rounded-xl w-96 shadow-x4 absolute top-full">
+                              <div className="left-1/2 transform -translate-x-1/2 mt-1  hidden group-hover:block bg-mauve-700/70 backdrop-blur-xs border border-mauve-600 p-4 rounded-xl w-96 shadow-x4 absolute top-full">
                                   <p>Built a portfolio website to showcase my projects, skills, and professional background. Developed the site from scratch and deployed it via GitHub Pages to create a fast, accessible personal brand home.</p>
                               </div>
                           </div>
@@ -56,7 +56,7 @@ export default function Home() {
                           {/* React Native ///////////////////////////////////////////////> */}
                           <div className="bg-white text-black rounded-md border-mauve-600 border-2 border m-1 px-5 py-2 hover:bg-mauve-600 hover:text-white duration-200 group relative hover:z-50">
                               <p>React Native</p>
-                              <div className="left-1/2 transform -translate-x-1/2 mt-1 hidden group-hover:block bg-neutral-700/80 backdrop-blur-xs border border-mauve-600 p-4 rounded-xl w-96 shadow-x4 absolute top-full">
+                              <div className="left-1/2 transform -translate-x-1/2 mt-1 hidden group-hover:block bg-mauve-700/70 backdrop-blur-xs border border-mauve-600 p-4 rounded-xl w-96 shadow-x4 absolute top-full">
                                   Used the Expo framework to build a mobile Pokémon card collection tracker. Focused on mobile UI design and integrating the C# backend.
                               </div>
                           </div>
@@ -65,7 +65,7 @@ export default function Home() {
                           {/* C# ///////////////////////////////////////////////> */}
                           <div className="bg-white text-black rounded-md border-mauve-600 border-2 border m-1 px-5 py-2 hover:bg-mauve-600 hover:text-white duration-200 group relative hover:z-50">
                               <p>C#</p>
-                              <div className="left-1/2 transform -translate-x-1/2 mt-1 hidden group-hover:block bg-neutral-700/80 backdrop-blur-xs border border-mauve-600 p-4 rounded-xl w-99 shadow-x4 absolute top-full">
+                              <div className="left-1/2 transform -translate-x-1/2 mt-1 hidden group-hover:block bg-mauve-700/70 backdrop-blur-xs border border-mauve-600 p-4 rounded-xl w-99 shadow-x4 absolute top-full">
                                   Primary programming language used for university coursework and personal projects.
                               </div>
                           </div>
@@ -78,7 +78,7 @@ export default function Home() {
                           {/* SQL ///////////////////////////////////////////////> */}
                           <div className="bg-white text-black rounded-md border-mauve-600 border-2 border m-1 ml-4 px-5 py-2 hover:bg-mauve-600 hover:text-white duration-200 group relative hover:z-50">
                               <p>PostgreSQL</p>
-                              <div className="left-1/2 -translate-x-1/2 mt-1 hidden group-hover:block bg-neutral-700/80 backdrop-blur-xs border border-mauve-600 p-4 rounded-xl w-96 shadow-x4 absolute z-1 top-full">
+                              <div className="left-1/2 -translate-x-1/2 mt-1 hidden group-hover:block bg-mauve-700/70 backdrop-blur-xs border border-mauve-600 p-4 rounded-xl w-96 shadow-x4 absolute z-1 top-full">
                                   Main database language used for university projects. Learned how to design databases, set up tables, and write queries to retrieve data for applications.
                               </div>
                           </div>
@@ -87,7 +87,7 @@ export default function Home() {
                           {/* Firebase ///////////////////////////////////////////////> */}
                           <div className="bg-white text-black rounded-md border-mauve-600 border-2 border m-1 px-5 py-2 hover:bg-mauve-600 hover:text-white duration-200 group relative hover:z-50">
                               <p>Firebase</p>
-                              <div className="left-1/2 -translate-x-1/2 mt-1 hidden group-hover:block bg-neutral-700/80 backdrop-blur-xs border border-mauve-600 p-4 rounded-xl w-96 shadow-x4 absolute z-1 top-full">
+                              <div className="left-1/2 -translate-x-1/2 mt-1 hidden group-hover:block bg-mauve-700/70 backdrop-blur-xs border border-mauve-600 p-4 rounded-xl w-96 shadow-x4 absolute z-1 top-full">
                                   Used to handle user authentication for my Pokémon card collection app. Implemented to ensure a smooth login experience.
                               </div>
                           </div>
@@ -96,7 +96,7 @@ export default function Home() {
                           {/* Tailwind CSS ///////////////////////////////////////////////> */}
                           <div className="bg-white text-black rounded-md border-mauve-600 border-2 border m-1 px-5 py-2 hover:bg-mauve-600 hover:text-white duration-200 group relative hover:z-50">
                               <p>Tailwind CSS</p>
-                              <div className="left-1/2 -translate-x-1/2 mt-1 hidden group-hover:block bg-neutral-700/80 backdrop-blur-xs border border-mauve-600 p-4 rounded-xl w-99 shadow-x4 absolute z-1 top-full">
+                              <div className="left-1/2 -translate-x-1/2 mt-1 hidden group-hover:block bg-mauve-700/70 backdrop-blur-xs border border-mauve-600 p-4 rounded-xl w-99 shadow-x4 absolute z-1 top-full">
                                   Styled my portfolio site with Tailwind CSS to create a clean and organized layout that showcases my website effectively.
                               </div>
                           </div>
@@ -105,9 +105,9 @@ export default function Home() {
                       </div>
                       <div className="flex flex-row">
                           {/* Avalonia UI ///////////////////////////////////////////////> */}
-                          <div className="bg-white text-black rounded-md border-mauve-600 border-2 border m-1 ml-3 px-5 py-2 hover:bg-mauve-600 hover:text-white duration-200 group relative hover:z-50">
+                          <div className="bg-white text-black rounded-md border-mauve-600 border-2 border m-1 ml-4 px-5 py-2 hover:bg-mauve-600 hover:text-white duration-200 group relative hover:z-50">
                               <p>Avalonia UI</p>
-                              <div className="left-1/2 -translate-x-1/2 mt-1 hidden group-hover:block bg-neutral-700/80 backdrop-blur-xs border border-slate-500 p-4 rounded-xl w-96 shadow-x4 absolute z-1 top-full">
+                              <div className="left-1/2 -translate-x-1/2 mt-1 hidden group-hover:block bg-mauve-700/70 backdrop-blur-xs border border-slate-500 p-4 rounded-xl w-96 shadow-x4 absolute z-1 top-full">
                                   Developed the graphical interface for two university projects using Avalonia UI. This involved collaborating with a team to build software that runs across different platforms.
                               </div>
                           </div>
@@ -116,7 +116,7 @@ export default function Home() {
                           {/* Python ///////////////////////////////////////////////> */}
                           <div className="bg-white text-black rounded-md border-mauve-600 border-2 border m-1 px-5 py-2 hover:bg-mauve-600 hover:text-white duration-200 group relative hover:z-50">
                               <p>Python</p>
-                              <div className="left-1/2 -translate-x-1/2 mt-1 hidden group-hover:block bg-neutral-700/80 backdrop-blur-xs border border-slate-500 p-4 rounded-xl w-96 shadow-x4 absolute z-1 top-full">
+                              <div className="left-1/2 -translate-x-1/2 mt-1 hidden group-hover:block bg-mauve-700/70 backdrop-blur-xs border border-slate-500 p-4 rounded-xl w-96 shadow-x4 absolute z-1 top-full">
                                   Used Python to complete an algorithm project focused on performance and time complexity. This was part of a Computer Systems course where I learned to analyze how different algorithms impact speed.
                               </div>
                           </div>
@@ -157,28 +157,37 @@ export default function Home() {
                   
                   <div className="absolute top-[18%] left-[0%] bg-neutral-900/80 backdrop-blur-sm border-2 border-slate-400/80 p-4 rounded-xl w-48 shadow-xl">
                       <div className="flex items-center gap-2 mb-1">
-                          <h3 className="font-bold text-white text-sm">OJ Autolak</h3>
+                          <div className="flex flex-col">
+                              <p className="font-bold text-mauve-400 text-sm">2020 - 2024</p>
+                              <p className="font-bold text-white text-sm">OJ Autolak</p> 
+                          </div>
                       </div>
                       <p className="text-xs text-indigo-100/60">Developed a sharp eye for detail, strict quality control, and practical problem-solving in a fast-paced environment.</p>
                   </div>
                   
                   <div className="absolute top-[30%] left-[45%] bg-[#0C0C14]/80 backdrop-blur-sm border border-indigo-400/30 p-4 rounded-xl w-48 shadow-xl">
                       <div className="flex items-center gap-2 mb-1">
-                          <h3 className="font-bold text-white text-sm">Engineering Foundation Course</h3>
+                          <div className="flex flex-col">
+                              <p className="font-bold text-mauve-400 text-sm">2024 - 2025</p>
+                              <p className="font-bold text-white text-sm">Engineering Foundation Course</p>
+                          </div>
                       </div>
                       <p className="text-xs text-indigo-100/60">Intensive academic upgrade. Bridged the gap between practical trade skills and theoretical engineering.</p>
                   </div>
                   
                   <div className="absolute top-[20%] left-[85%] bg-[#0C0C14]/80 backdrop-blur-sm border border-indigo-400/30 p-4 rounded-xl w-56 shadow-xl z-10">
                       <div className="flex items-center gap-2 mb-1">
-                          <h3 className="font-bold text-white text-sm">Software Tech @ SDU</h3>
+                          <div className="flex flex-col">
+                              <p className="font-bold text-mauve-400 text-sm">2025 - Present</p>
+                              <p className="font-bold text-white text-sm">Software Tech @ SDU</p>
+                          </div>
                       </div>
                       <p className="text-xs text-indigo-100/60">Currently building a foundation in software architecture, coding, and agile development methodologies.</p>
                   </div>
                   
                   <div className="absolute top-[87%] left-[70%] bg-[#0C0C14]/80 backdrop-blur-sm border border-indigo-400/30 p-4 rounded-xl w-48 shadow-xl">
                       <div className="flex items-center gap-2 mb-1">
-                          <h3 className="font-bold text-white text-sm">Future</h3>
+                          <p className="font-bold text-white text-sm">Future</p>
                       </div>
                       <p className="text-xs text-indigo-100/60">Eager to combine practical problem-solving with software engineering. Looking for student worker opportunities or internships.</p>
                   </div>
@@ -201,7 +210,7 @@ export default function Home() {
                   <div className="flex flex-col items-center justify-center min-h-screen w-full py-30 ml-56">
                       <p className="text-mauve-700 text-5xl pr-60">Let's Connect</p>
                       <p className="text-neutral-700 text-lg pl-1.5">Feel free to reach out! I'm always open to discussing new projects, creative ideas, or opportunities.</p>
-                      <div className="items-center w-full bg-white/5 border-8 border-slate-700 rounded-xl p-5 border-x-1 border-y-1 shadow-lg mt-5">
+                      <div className="items-center w-full bg-mauve-900/80 border-8 border-mauve-600 rounded-xl p-5 border-x-1 border-y-1 shadow-lg mt-5">
                           <p className="text-green-400 font-mono mb-0.5 ">// Personal Profile</p>
                           <div className="flex flex-row ">
                               <p className="text-blue-400 font-mono mb-0.5 mr-1">var</p>
