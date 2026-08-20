@@ -15,27 +15,6 @@ import { CvBox } from '@/components/CvBox'
 
 export default function Home() {
     
-    const CopyToClipboard = async () => {
-        
-        try 
-        {
-            await navigator.clipboard.writeText("Maltepedersen03@gmail.com").then(() => {
-                showToast.success("Copied to clipboard", {
-                    duration: 3000,
-                    progress: true,
-                    position: "bottom-center",
-                    transition: "slideInUp",
-                    sound: false,
-                    
-                })
-            });
-        }
-        catch (error)
-        {
-            console.log(error);
-        }
-    }
-    
   return (
       <div>
           <section id="home">
@@ -210,7 +189,7 @@ export default function Home() {
                       <a className="text-xl text-mauve-600 mb-2 mt-30">Contact</a>
                       <div className="flex flex-row mb-4">
                           <IoIosMail className="text-blue-400 text-2xl mr-2"/>
-                          <p onClick={CopyToClipboard} className="text-neutral-700 py-0.5 opacity-95 hover:opacity-70 hover:underline">Maltepedersen03@gmail.com</p>
+                          <a href="mailto:Maltepedersen03@gmail.com" className="text-neutral-700 py-0.5 opacity-95 hover:opacity-70 hover:underline">Maltepedersen03@gmail.com</a>
                       </div>
 
                       <div className="flex flex-row mb-4">
