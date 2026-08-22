@@ -98,7 +98,7 @@ export default function Home() {
                       </CvBox>
                       
                       <CvBox title={'Future'}
-                             year={'2025 - Present'}
+                             year={'2026 - Present'}
                              description={'Currently seeking a student worker position to gain practical experience and contribute to team projects.'}
                              opacity={'bg-mauve-600/75'}>
                       </CvBox>
