@@ -102,7 +102,6 @@ export default function Home() {
                              description={'Currently seeking a student worker position to gain practical experience and contribute to team projects.'}
                              opacity={'bg-mauve-600/75'}>
                       </CvBox>
-                      
                   </div>
               </div>
           </section>
