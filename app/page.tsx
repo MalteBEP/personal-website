@@ -143,7 +143,7 @@ export default function Home() {
           <section id="contact">
               <div className="flex flex-row items-center w-full">
                   <div className="flex flex-col items-center justify-center w-full ms-48 mt-28 mb-28">
-                      <p className="text-mauve-600 text-4xl me-62 font-bold italic">Let's Connect</p>
+                      <p className="text-mauve-600 text-4xl me-76.5 font-bold italic">Let's Connect</p>
                       <p className="text-neutral-700 pl-1.5">Feel free to reach out. I'm always open for new projects, ideas, or opportunities.</p>
                       
                       <div className="items-center w-full bg-mauve-800/80 border-8 border-mauve-400 rounded-xl p-5 border-x-1 border-y-1 shadow-lg mt-5">
